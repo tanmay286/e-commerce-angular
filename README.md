@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BookApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# e-commerce-angular
+>>>>>>> cbec0be8111bb3485755970c2c5be1850c9a96c1
