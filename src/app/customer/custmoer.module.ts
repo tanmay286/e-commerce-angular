@@ -4,6 +4,9 @@ import { CustomerLoginComponent } from './customer-login.component';
 import { CustomerRegistrationComponent } from './customer-registration.component';
 import { RouterModule } from '@angular/router';
 import { customerRoutes } from './customer.route';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CustomerService } from './customer.service';
 
 @NgModule({
     declarations:[
@@ -13,7 +16,10 @@ import { customerRoutes } from './customer.route';
 
     imports:[
         BrowserModule,
-        RouterModule.forChild(customerRoutes)
+        RouterModule.forChild(customerRoutes),
+        FormsModule,
+        HttpClientModule
+        
     ],
 
     exports:[
@@ -21,7 +27,9 @@ import { customerRoutes } from './customer.route';
         CustomerRegistrationComponent,
         RouterModule
 
-    ]
+    ],
+
+    providers:[CustomerService]
 })
 export class CustomerModule{
 

@@ -1,5 +1,5 @@
 export class Address{
-    address:string;
+    addressLine1:string;
     state:string;
     city:string;
     postalCode:number;    
@@ -11,5 +11,6 @@ export class Customer{
     password:string;
     contact:number;
     email:string;
+    address:Address;
 
 }
